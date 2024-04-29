@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a294e09b-fe96-4278-ae41-9c55a60b2a3a" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Support.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/SupportMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/User.java" afterDir="false" />
+    <list default="true" id="a294e09b-fe96-4278-ae41-9c55a60b2a3a" name="Changes" comment="added domain entities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Support.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +96,8 @@
       <option name="presentableId" value="Default" />
       <updated>1714220518644</updated>
       <workItem from="1714310322978" duration="3802000" />
-      <workItem from="1714314511406" duration="1064000" />
+      <workItem from="1714314511406" duration="1444000" />
+      <workItem from="1714379499454" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -110,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714311890014</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added domain entities">
+      <option name="closed" value="true" />
+      <created>1714316435993</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714316435993</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +123,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="added domain entities" />
+    <option name="LAST_COMMIT_MESSAGE" value="added domain entities" />
   </component>
 </project>

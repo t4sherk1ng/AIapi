@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
@@ -21,10 +22,6 @@ public class Support {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "SupportID")
     private Integer id;
-
-    @Column(name = "UserID")
-    @OneToOne(fetch = FetchType.LAZY, targetEntity = User.class)
-    private Integer userId;
 
     @Column(name = "SupportChatID")
     private Integer supportChatId;
@@ -42,4 +39,12 @@ public class Support {
     @Column(name = "DateEnd")
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private Date dateEnd;
+
+    @ManyToMany
+            @JoinTable(
+                    name = "support_users",
+                    joinColumns = @JoinColumn(name = "support_id"),
+                    inverseJoinColumns = @JoinColumn(name = "user_id")
+            )
+    Set<User> users;
 }

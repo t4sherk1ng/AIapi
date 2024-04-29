@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
+import java.util.Set;
 
 @Data
 @NoArgsConstructor
@@ -39,4 +40,7 @@ public class User {
     @Column(name = "DateBirth")
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private Date dateBirth;
+
+    @ManyToMany(mappedBy = "users")
+    Set<Support> supports;
 }
