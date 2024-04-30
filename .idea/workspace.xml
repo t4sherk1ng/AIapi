@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a294e09b-fe96-4278-ae41-9c55a60b2a3a" name="Changes" comment="changed relationships between tables">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/ChatDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/MessageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/SupportDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/SupportMessageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dao/UserDao.java" afterDir="false" />
+    <list default="true" id="a294e09b-fe96-4278-ae41-9c55a60b2a3a" name="Changes" comment="dao added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/ChatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/SupportMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/SupportService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -103,7 +102,7 @@
       <updated>1714220518644</updated>
       <workItem from="1714310322978" duration="3802000" />
       <workItem from="1714314511406" duration="1444000" />
-      <workItem from="1714379499454" duration="3528000" />
+      <workItem from="1714379499454" duration="4707000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -129,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714380861781</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dao added">
+      <option name="closed" value="true" />
+      <created>1714393788104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714393788104</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +146,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="added domain entities" />
     <MESSAGE value="changed relationships between tables" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed relationships between tables" />
+    <MESSAGE value="dao added" />
+    <option name="LAST_COMMIT_MESSAGE" value="dao added" />
   </component>
 </project>
