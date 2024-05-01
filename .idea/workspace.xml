@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a294e09b-fe96-4278-ae41-9c55a60b2a3a" name="Changes" comment="dao added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/ChatService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/SupportMessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/SupportService.java" afterDir="false" />
+    <list default="true" id="a294e09b-fe96-4278-ae41-9c55a60b2a3a" name="Changes" comment="service layer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/SupportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/domain/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/domain/Support.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/ChatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/SupportMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/SupportMessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/SupportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/SupportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -102,7 +106,7 @@
       <updated>1714220518644</updated>
       <workItem from="1714310322978" duration="3802000" />
       <workItem from="1714314511406" duration="1444000" />
-      <workItem from="1714379499454" duration="4707000" />
+      <workItem from="1714379499454" duration="7339000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -136,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714393788104</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="service layer">
+      <option name="closed" value="true" />
+      <created>1714477353213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714477353213</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +159,7 @@
     <MESSAGE value="added domain entities" />
     <MESSAGE value="changed relationships between tables" />
     <MESSAGE value="dao added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dao added" />
+    <MESSAGE value="service layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="service layer" />
   </component>
 </project>

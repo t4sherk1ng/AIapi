@@ -8,7 +8,7 @@ public interface SupportMessageService {
 
     SupportMessage insert(SupportMessage supportMessage);
 
-    SupportMessage update(SupportMessage supportMessage);
+    SupportMessage update(int supportMessageID, int supportID, String supportName, String userMessage, String supportResponse);
 
     List<SupportMessage> findAll();
 

@@ -8,7 +8,7 @@ public interface SupportService {
 
     Support insert(Support support);
 
-    Support update(Support support);
+    Support update(int id, int supportChatID, String reportTheme);
 
     List<Support> findAll();
 

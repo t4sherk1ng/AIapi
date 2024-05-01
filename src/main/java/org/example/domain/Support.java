@@ -23,12 +23,18 @@ public class Support {
     @Column(name = "SupportID")
     private Integer id;
 
+
+    //TODO refactor
     @Column(name = "SupportChatID")
     private Integer supportChatId;
 
+
+    //TODO refactor
     @Column(name = "ReportTheme")
     private String reportTheme;
 
+
+    //TODO refactor
     @Column(name = "Completed")
     private Boolean completed;
 

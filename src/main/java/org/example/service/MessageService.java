@@ -8,7 +8,7 @@ public interface MessageService {
 
     Message insertMessage(Message message);
 
-    Message updateMessage(Message message);
+    Message updateMessage(int messageID, int chatID, String customerMessage, String aiResponse);
 
     List<Message> getMessages();
 
